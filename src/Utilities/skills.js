@@ -12,7 +12,7 @@ export const skills = [
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
     },
     {
-        name: "typescript",
+        name: "Typescript",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg",
 
     },
@@ -22,12 +22,12 @@ export const skills = [
 
     },
     {
-        name: "tailwindcss",
+        name: "Tailwindcss",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
 
     },
     {
-        name: "bootstrap",
+        name: "Bootstrap",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
 
     },

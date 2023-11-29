@@ -10,11 +10,17 @@ const Projects = () => {
             <div className='grid grid-cols-2 sm:grid-cols-3 gap-3'>
                 {projects.map((item, index) => {
                     return (
-                        <a href={item.link} key={index} className='flex flex-col justify-start items-center border border-solid border-black rounded-[1em] p-3 gap-3'>
-                            <img src={item.image} />
-                            <div className='flex flex-col justify-start items-center'>
-                                <div className='text-[1em] underline self-center font-semibold'>{item.name}</div>
-                                <div className='text-center'>{item.detail}</div>
+                        <a href={item.link} key={index} className='flex flex-col justify-start items-center border border-solid border-black rounded-[1em] p-3 gap-3 group'>
+                            <div className=' flex flex-col justify-start items-center relative'>
+                                <img src={item.image} />
+                                <div className='flex flex-col justify-start items-center '>
+                                    <div className='text-[1em] underline self-center font-semibold'>{item.name}</div>
+
+
+                                </div>
+                                <div className='hidden group-hover:absolute w-full h-full bg-black bg-opacity-50 group-hover:flex justify-center items-center '>
+                                    <div className='text-center text-white'>{item.detail}</div>
+                                </div>
                             </div>
                         </a>
                     )
