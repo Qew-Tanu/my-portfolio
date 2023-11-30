@@ -11,7 +11,7 @@ const Projects = () => {
                 {projects.map((item, index) => {
                     return (
                         <a href={item.link} key={index} className='flex flex-col justify-start items-center border border-solid border-black rounded-[1em] p-3 gap-3 group'>
-                            <div className=' flex flex-col justify-start items-center relative'>
+                            <div className=' flex flex-col justify-start items-center relative gap-3'>
                                 <img src={item.image} />
                                 <div className='flex flex-col justify-start items-center '>
                                     <div className='text-[1em] underline self-center font-semibold'>{item.name}</div>

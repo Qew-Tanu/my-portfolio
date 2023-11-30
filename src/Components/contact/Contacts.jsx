@@ -8,7 +8,7 @@ const Contacts = () => {
         <div id='Contact' className='flex flex-col w-full items-center border mt-5 border-black border-solid rounded-[3em] p-5 gap-10'>
             <TextHeader>Contact</TextHeader>
             <div className='flex w-full justify-center'>
-                <div className=' sm:h-full flex flex-col p-5 gap-4 '>
+                <div className=' sm:h-full flex flex-col p-5 gap-4 overflow-hidden '>
                     {contactItems.map((item, index) => {
                         return (
                             <a href={item?.link} className=' flex gap-2 items-center justify-start rounded-[2em] hover:bg-blue-200 p-3 ' key={index}>
