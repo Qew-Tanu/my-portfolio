@@ -14,7 +14,7 @@ const Contacts = () => {
                             <a href={item?.link} className=' flex gap-2 items-center justify-start rounded-[2em] hover:bg-blue-200 p-3 ' key={index}>
                                 <img src={item.image} className='w-[2em] h-[2em]' />
                                 <div className='font-semibold min-w-[55px] md:min-w-[85px]'>{item.name} : </div>
-                                <p className='font-semibold truncate overflow-hidden break-keep'>{item.link ? item.link : item.detail}</p>
+                                <p className='font-semibold truncate overflow-hidden break-keep'>{(item.name === 'phone' || item.name === 'email') ? item.detail : item.link}</p>
                             </a>
                         )
                     })}

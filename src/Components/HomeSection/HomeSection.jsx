@@ -26,10 +26,10 @@ const HomeSection = () => {
                     <div className='w-fit sm:h-full flex flex-col p-5 gap-4 justify-center'>
                         {contactItems.map((item, index) => {
                             return (
-                                <a href={item?.link} className='flex gap-2' key={index}>
-                                    <img src={item.image} className='w-[2em] h-[2em]' />
-                                    <div className='font-semibold flex sm:hidden sm:group-hover:flex'>{item.detail}</div>
-                                </a>
+                                <div className='flex gap-2 hover:bg-blue-200 rounded-[2em] items-center' key={index}>
+                                    <img src={item.image} className='w-[2em] h-[2em] hover:w-[3em] hover:h-[3em]' />
+                                    <a href={item?.link} className='font-semibold flex sm:hidden sm:group-hover:flex'>{item.detail}</a>
+                                </div>
                             )
                         })}
                     </div>
