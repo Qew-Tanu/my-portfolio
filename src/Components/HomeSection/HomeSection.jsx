@@ -13,7 +13,7 @@ const HomeSection = () => {
                 <img src="./images/homevertical.jpg" className='w-full flex sm:hidden' />
             </div>
 
-            <div className='text-black absolute top-0 w-full sm:w-fit sm:h-full flex items-center flex-row group'>
+            <div className='text-black absolute top-0 w-full sm:w-fit sm:h-full flex items-center flex-row group/all'>
                 <div className='flex flex-col sm:flex-row h-full bg-gray-300 bg-opacity-70 w-full px-3 sm:w-fit items-center'>
                     <div className='h-full flex flex-col p-5 text-[1em] gap-4 w-[300px] lg:w-[350px] justify-center items-center'>
                         <p>HELLO EVERYBODY I'AM</p>
@@ -26,9 +26,9 @@ const HomeSection = () => {
                     <div className='w-fit sm:h-full flex flex-col p-5 gap-4 justify-center'>
                         {contactItems.map((item, index) => {
                             return (
-                                <div className='flex gap-2 hover:bg-blue-200 rounded-[2em] items-center' key={index}>
-                                    <img src={item.image} className='w-[2em] h-[2em] hover:w-[3em] hover:h-[3em]' />
-                                    <a href={item?.link} className='font-semibold flex sm:hidden sm:group-hover:flex'>{item.detail}</a>
+                                <div className='flex gap-2 hover:bg-blue-200 rounded-[2em] items-center group/contact' key={index}>
+                                    <img src={item.image} className='w-[2em] h-[2em] group-hover/contact:w-[3em] group-hover/contact:h-[3em]' />
+                                    <a href={item?.link} className='font-semibold flex sm:hidden sm:group-hover/all:flex'>{item.detail}</a>
                                 </div>
                             )
                         })}
