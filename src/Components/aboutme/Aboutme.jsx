@@ -26,7 +26,7 @@ const Aboutme = () => {
                         <TextHeader>Experience</TextHeader>
                         <ul className='max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400 flex flex-col items-start'>
                             <li>Learning in Coursera and Westride 2023</li>
-                            <li>SCG Packaging 2016 - 2023</li>
+                            <li>SCG Packaging 2016 - 2023 (Project Engineer)</li>
                             <li>Thai Takasago 2014 - 2016</li>
                             <li>Kasetsart University Bachelor degree 2014 - 2016</li>
                         </ul>
