@@ -14,7 +14,7 @@ const Projects = () => {
                             <div className=' flex flex-col justify-start items-center relative gap-3'>
                                 <img src={item.image} />
                                 <div className='flex flex-col justify-start items-center '>
-                                    <div className='text-[1em] underline self-center font-semibold'>{item.name}</div>
+                                    <div className='text-[1em] underline text-center font-semibold'>{item.name}</div>
 
 
                                 </div>
