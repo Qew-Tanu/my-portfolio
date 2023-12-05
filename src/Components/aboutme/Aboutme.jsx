@@ -9,17 +9,14 @@ const Aboutme = () => {
                 <div className='flex flex-col w-[50%] gap-3 lg:w-[55%] xl:w-[60%]'>
                     <TextHeader>About me</TextHeader>
                     <div className='flex flex-col items-start list-inside list-disc justify-start self-start gap-3'>
-                        <p className='text-gray-500'>My name is Tanu Tarathikhampor. You can call me <span className='text-black underline'>Qew</span>. I was working in Mechanical engineer in <span className='text-black underline'>Siam Cement group in Packaging business (SCG Packaging)</span> before. I was <span className='text-black underline'>project engineer</span>. My work is about control the whole project and also deep control in Civil work such as Building work, Mechanical work such as Mechine installation and Piping work. </p>
-                        <p className='text-gray-500'> And I also interrest in Computer program. So I start to learn about computer programing and now, I decide to reskill about Web Developer with <span className='text-black underline'>Coursera and Westride</span> to learn about how to make website</p>
+                        <p className='text-gray-500'>My name is <span className='text-black underline text-[1.2em]'>Tanu Tarathikhamporn</span>. You can call me <span className='text-black underline text-[1.2em]'>Qew</span>. I was dynamic Project Engineer specializing in mechanical systems, poised to transition into a challenging role as a Front-end Developer.</p>
+                        <p className='text-gray-500'> Recently equipped with comprehensive web development skills acquired through <span className='text-black underline text-[1.2em]'>Coursera and Westride's intensive training camp in Thailand.</span></p>
+                        <p className='text-gray-500'> Excited to leverage my engineering background and newly acquired programming expertise to contribute innovative solutions and enhance user interfaces as a <span className='text-black underline text-[1.2em]'>Front-end Developer</span> in a dynamic tech environment.</p>
+
                     </div>
                     <div className='hidden sm:flex flex-col gap-3 mt-3 text-gray-500'>
-                        <div>Fullname: <span className='text-black'>Tanu Tarathikhamporn</span></div>
-                        <div>Nickname: <span className='text-black'>Qew</span></div>
-                        <div>Age : <span className='text-black'>32 Years old</span></div>
-                        <div>Date of Birth: <span className='text-black'>November 2, 1991</span></div>
+                        <p>Outside of work, I enjoy <span className='text-black'>Badminton, Travel, Fishing</span>, bringing creativity and a well-rounded perspective to my professional endeavors</p>
                     </div>
-
-
                 </div>
                 <div className='flex flex-col gap-3 w-[50%] lg:w-[45%] xl:w-[40%] '>
                     <div className='flex flex-col gap-3'>
