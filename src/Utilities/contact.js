@@ -40,9 +40,8 @@ export const contactItems = [
         name: "Resume",
         image: "./images/resume.png",
         detail: "My CV download",
-        link: "https://1drv.ms/b/s!AoP6f2vFFdbTtb1-1QLiz-v-1SWAEw?e=OiD2N8",
+        link: "https://1drv.ms/b/s!AoP6f2vFFdbTtscf84Z2Zei9zsITXg?e=Q3a7FU",
     },
 
 ]
 
-// https://1drv.ms/b/s!AoP6f2vFFdbTtb1-1QLiz-v-1SWAEw?e=OiD2N8
