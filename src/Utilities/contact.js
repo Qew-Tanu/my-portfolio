@@ -16,7 +16,7 @@ export const contactItems = [
         name: "linkin",
         image: "./images/linkedin.png",
         detail: "Tanu-Taratikumpor",
-        link: "https://www.linkedin.com/in/tanu-taratikumporn-99944799",
+        link: "https://www.linkedin.com/in/tanu-taratikumporn/",
     },
     {
         name: "github",
