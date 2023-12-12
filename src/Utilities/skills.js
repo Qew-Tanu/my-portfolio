@@ -31,6 +31,21 @@ export const skills = [
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
 
     },
+    {
+        name: "Nodejs (learning)",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
+
+    },
+    {
+        name: "ExpressJS (learning)",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+
+    },
+    {
+        name: "Postgresql (learning)",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg",
+
+    },
 
 ]
 
