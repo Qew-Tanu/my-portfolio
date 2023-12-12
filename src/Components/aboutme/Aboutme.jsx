@@ -49,7 +49,7 @@ const Aboutme = () => {
                 <div className='flex gap-10 flex-wrap mt-3 justify-center '>
                     {skills.map((item, index) => {
                         return (
-                            <div className='flex flex-col items-center justify-between h-[7em]' key={index}>
+                            <div className='flex flex-col items-center justify-between h-[7em] hover:scale-125' key={index}>
                                 <img src={item.image} className='w-[5em]' />
                                 <div>{item.name}</div>
                             </div>

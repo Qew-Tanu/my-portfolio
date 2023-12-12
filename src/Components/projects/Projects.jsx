@@ -11,19 +11,19 @@ const Projects = () => {
                 <div className='grid grid-cols-2 sm:grid-cols-3 gap-3'>
                     {projects.map((item, index) => {
                         return (
-                            <a href={item.link} key={index} className='flex flex-col justify-start items-center border border-solid border-black rounded-[1em] p-3 gap-3 group'>
-                                <div className=' flex flex-col justify-start items-center relative gap-3'>
+                            <div key={index} className='flex flex-col justify-start items-center border border-solid border-black rounded-[1em] p-3 gap-3 group'>
+                                <div className=' flex flex-col justify-start items-center relative gap-3 group-hover:animate-flip'>
                                     <img src={item.image} />
                                     <div className='flex flex-col justify-start items-center '>
-                                        <div className='text-[1em] underline text-center font-semibold'>{item.name}</div>
-
+                                        <div className='text-[1.2em] underline text-center font-semibold'>{item.name}</div>
 
                                     </div>
-                                    <div className='hidden group-hover:absolute w-full h-full bg-black bg-opacity-50 group-hover:flex justify-center items-center '>
+                                    <div className='hidden group-hover:animate-show group-hover:absolute w-full h-full bg-black bg-opacity-50 group-hover:flex flex-col justify-evenly items-center '>
                                         <div className='text-center text-white'>{item.detail}</div>
+                                        <a href={item.link} className='text-center text-white underline text-[1.2em]'>Go to Website!!!</a>
                                     </div>
                                 </div>
-                            </a>
+                            </div>
                         )
                     })}
                 </div>
