@@ -32,17 +32,22 @@ export const skills = [
 
     },
     {
-        name: "Nodejs (learning)",
+        name: "Nodejs",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg",
 
     },
     {
-        name: "ExpressJS (learning)",
+        name: "ExpressJS",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
 
     },
     {
-        name: "Postgresql (learning)",
+        name: "Sequelize",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sequelize/sequelize-original.svg",
+
+    },
+    {
+        name: "Postgresql",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain-wordmark.svg",
 
     },
@@ -50,3 +55,4 @@ export const skills = [
 ]
 
 // https://devicon.dev/
+

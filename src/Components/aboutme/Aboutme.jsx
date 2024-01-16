@@ -10,8 +10,8 @@ const Aboutme = () => {
                     <TextHeader>About me</TextHeader>
                     <div className='flex flex-col items-start list-inside list-disc justify-start self-start gap-3'>
                         <p className='text-gray-500'>My name is <span className='text-black underline text-[1.2em]'>Tanu Tarathikhamporn</span>. You can call me <span className='text-black underline text-[1.2em]'>Qew</span>. I was Former Project Engineer at SCG Packaging transitioning to a dynamic career in web development. </p>
-                        <p className='text-gray-500'>Completed intensive training with <span className='text-black underline text-[1.2em]'>Coursera and WeStride's developer program in Thailand</span>, specializing in Front-End technologies.</p>
-                        <p className='text-gray-500'>Eager to apply mechanical and problem-solving skills to create engaging and user-friendly web experiences. Ready to contribute to innovative projects as an entry-level <span className='text-black underline text-[1.2em]'>Front-End Developer</span>.</p>
+                        <p className='text-gray-500'>Completed intensive training with <span className='text-black underline text-[1.2em]'>Coursera and WeStride's developer program in Thailand</span>, specializing in Developer technologies.</p>
+                        <p className='text-gray-500'>Eager to apply mechanical and problem-solving skills to create engaging and user-friendly web experiences. Ready to contribute to innovative projects as an entry-level <span className='text-black underline text-[1.2em]'>Developer</span>.</p>
                         <p className='text-gray-500 hidden sm:inline'>Outside of work, I enjoy <span className='text-black'>Badminton, Travel, Fishing</span>, bringing creativity and a well-rounded perspective to my professional endeavors.</p>
 
                     </div>
@@ -34,11 +34,8 @@ const Aboutme = () => {
                         <ul className='max-w-md space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400 flex flex-col items-start'>
                             <li>Control project schedule</li>
                             <li>Control project budget</li>
-                            <li>Machine and piping installation work</li>
-                            <li>Civil work (Building and Foundation)</li>
-                            <li>Machine modify</li>
+                            <li>Lead project Construction & Installation</li>
                             <li>Machine design</li>
-                            <li>Piping design</li>
                         </ul>
                     </div>
                 </div>
