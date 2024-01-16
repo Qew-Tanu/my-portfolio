@@ -19,8 +19,8 @@ const Projects = () => {
 
                                     </div>
                                     <div className='hidden group-hover:animate-show group-hover:absolute w-full h-full bg-black bg-opacity-50 group-hover:flex flex-col justify-evenly items-center '>
-                                        {item.detail && item.detail.map((element) => {
-                                            return <div className='text-center text-white'>{element} </div>
+                                        {item.detail && item.detail.map((element, index) => {
+                                            return <div key={index} className='text-center text-white'>{element} </div>
                                         })}
 
                                         <a href={item.link} className='text-center text-white underline text-[1.2em]'>Go to Website!!!</a>
