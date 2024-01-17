@@ -20,7 +20,7 @@ const HomeSection = () => {
                         <h1 className='text-[1.2em] sm:text-[1.5em] font-bold'>TANU</h1>
                         <h1 className='text-[1.2em] sm:text-[1.5em] font-bold'>TARATHIKHAMPOR</h1>
                         <p>YOU CAN CALL ME <span className='text-[1.2em] sm:text-[1.5em] font-bold'>{"Qew"}</span></p>
-                        <p>JUNIOR DEVELOPER</p>
+                        <p>Front-end/Back-end DEVELOPER</p>
                         <p className='hidden lg:flex'>I was Project engineer, Mechanical field in SCG Company before. And I reskill about web developer with Westride and Coursera</p>
                     </div>
                     <div className='w-fit sm:h-full flex flex-col p-5 gap-4 justify-center'>
