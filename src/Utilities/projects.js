@@ -1,5 +1,11 @@
 export const projects = [
     {
+        name: "Income and Expense : Web application",
+        link: "https://moneymanagement.pages.dev/",
+        detail: ["Income and Expense application", `Front-end: ReactJS`, `Backend : NodeJS, ExpressJS, Sequalize`, 'Database : ElephantSQL (PostgresSQL)'],
+        image: "./images/money_management.png",
+    },
+    {
         name: "POS system",
         link: "https://pos-frontend-web.pages.dev/",
         detail: ["POS system in mini version", `Front-end: ReactJS`, `Backend : NodeJS, ExpressJS, Sequalize`, 'Database : PostgresSQL, Firebase(for image)'],
@@ -17,13 +23,6 @@ export const projects = [
         detail: ['Learning to use react by making Pokemondex website'],
         image: "./images/pokedex.png",
     },
-    {
-        name: "Airbnb clone",
-        link: "https://qew-tanu.github.io/Airbnb-Clone/",
-        detail: ['Learning to use HTML CSS by Clone Airbnb website'],
-        image: "./images/airbnb.png",
-    },
-
 
 ]
 
