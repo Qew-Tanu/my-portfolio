@@ -2,13 +2,13 @@ export const projects = [
     {
         name: "Income and Expense : Web application",
         link: "https://moneymanagement.pages.dev/",
-        detail: ["Income and Expense application", `Front-end: ReactJS`, `Backend : NodeJS, ExpressJS, Sequalize`, 'Database : ElephantSQL (PostgresSQL)'],
+        detail: ["Income and Expense application", `Front-end: ReactJS + TailwindCSS`, `Backend : NodeJS, ExpressJS, Sequalize`, 'Database : ElephantSQL (PostgresSQL)'],
         image: "./images/money_management.png",
     },
     {
         name: "POS system",
         link: "https://pos-frontend-web.pages.dev/",
-        detail: ["POS system in mini version", `Front-end: ReactJS`, `Backend : NodeJS, ExpressJS, Sequalize`, 'Database : PostgresSQL, Firebase(for image)'],
+        detail: ["POS system in mini version", `Front-end: ReactJS + Bootstrap`, `Backend : NodeJS, ExpressJS, Sequalize`, 'Database : PostgresSQL, Firebase(for image)'],
         image: "./images/POS-system.png",
     },
     {
